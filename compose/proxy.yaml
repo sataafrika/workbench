@@ -13,13 +13,13 @@ services:
     networks:
       default:
         aliases:
-          - api.wb.local
-          - auth.wb.local
-          - ws.ranger.wb.local
-          - pma.wb.local
-          - eth.wb.local
-          - monitor.wb.local
+          - api.cryptotradingkit.com
+          - auth.cryptotradingkit.com
+          - ws.ranger.cryptotradingkit.com
+          - pma.cryptotradingkit.com
+          - eth.cryptotradingkit.com
+          - monitor.cryptotradingkit.com
     labels:
       traefik.enable: true
-      traefik.frontend.rule: 'Host: monitor.wb.local'
+      traefik.frontend.rule: 'Host: monitor.cryptotradingkit.com'
       traefik.port: 8080
